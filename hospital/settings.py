@@ -25,10 +25,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-a%c&lyyvh&nv8@0q^f(w^b+q)8chcyy2ewx7s*rd+ez8t9coz%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
+ALLOWED_HOSTS = ['*.azurewebsites.net', 'localhost', '127.0.0.1']  # Ensure you handle all expected domains
+
+# Other settings...
+
+DEBUG = False  # Set to False in production
 
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['rokadehospital-fbbfhsdecbeuh4fm.canadacentral-01.azurewebsites.net']
 
 
 # Application definition
@@ -106,7 +110,6 @@ AUTH_PASSWORD_VALIDATORS = [
 CSRF_TRUSTED_ORIGINS = [
     'https://rokadehospital-fbbfhsdecbeuh4fm.canadacentral-01.azurewebsites.net',
 ]
-
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
