@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-a%c&lyyvh&nv8@0q^f(w^b+q)8chcyy2ewx7s*rd+ez8t9coz%
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['rokadehospital-fbbfhsdecbeuh4fm.canadacentral-01.azurewebsites.net', 'localhost']  # Ensure you handle all expected domains
+# ALLOWED_HOSTS = ['rokadehospital-fbbfhsdecbeuh4fm.canadacentral-01.azurewebsites.net']  # Ensure you handle all expected domains
+ALLOWED_HOSTS = ['rokadehospital-fbbfhsdecbeuh4fm.canadacentral-01.azurewebsites.net']
 
 # Other settings...
 
@@ -49,9 +50,9 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
+    #'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    #'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
