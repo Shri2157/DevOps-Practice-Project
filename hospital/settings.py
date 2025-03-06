@@ -102,6 +102,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://rokadehospital-fbbfhsdecbeuh4fm.canadacentral-01.azurewebsites.net',
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
