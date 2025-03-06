@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-a%c&lyyvh&nv8@0q^f(w^b+q)8chcyy2ewx7s*rd+ez8t9coz%
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['*.azurewebsites.net', 'localhost']  # Ensure you handle all expected domains
+ALLOWED_HOSTS = ['rokadehospital-fbbfhsdecbeuh4fm.canadacentral-01.azurewebsites.net', 'localhost']  # Ensure you handle all expected domains
 
 # Other settings...
 
